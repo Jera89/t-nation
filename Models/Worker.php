@@ -14,9 +14,9 @@ class Worker {
         $this->surname = $surname;
     }
     
-    public function chargeToll($car)
+    public function chargeToll($vehicle)
     {
-        return $car->toll_price;
+        return $vehicle->toll_price;
     }
     
 }
