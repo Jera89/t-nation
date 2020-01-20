@@ -13,6 +13,7 @@ use Models\Worker;
 use Interfaces\LoggerInterface;
 use Helpers\Logger;
 use Helpers\ConfigHelper;
+use Helpers\ViewHelper;
 
 $logger = new Logger(ConfigHelper::getConfig('log_file'));
 
@@ -35,12 +36,4 @@ $worker1->chargeToll($trailer_truck);
 $worker2->chargeToll($truck);
 $worker2->chargeToll($bus);
 
-header('HTTP/1.1 200 OK');
-header('Content-Type: text/html');
-
-foreach ($workers_array as $worker) {
-    echo 'Radnik '.$worker->name.' '.$worker->surname.' je ukupno naplatio: '.$worker->getChargedSum().'RSD. <br>';
-}
-
-echo 'Na naplatnoj stanici, ukupno je naplaceno: '.$toll_station->getChargedSum().'RSD.';
-
+require ViewHelper::getViewPath('index-view');
