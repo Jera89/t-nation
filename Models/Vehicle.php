@@ -14,9 +14,10 @@ abstract class Vehicle {
         $this->model = $model;
         $this->colour = $colour;
         $this->logger = $logger;
+        $logger->logMessage($this->getCreationLogMessage());
     }
     
-    public abstract function logAction($action_message);
+    public abstract function getCreationLogMessage();
     
 }
 

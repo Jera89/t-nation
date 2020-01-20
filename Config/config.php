@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'log_file' => dirname(dirname(__FILE__)).'Logs'.DIRECTORY_SEPARATOR.'log.txt',
+    'log_file' => dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR.'Logs'.DIRECTORY_SEPARATOR.'log.txt',
 ];
 

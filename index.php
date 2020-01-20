@@ -10,24 +10,30 @@ use Models\TrailerTruck;
 use Models\Truck;
 use Models\Vehicle;
 use Models\Worker;
+use Interfaces\LoggerInterface;
 use Helpers\Logger;
 
-var_dump($config['log_file']);exit;
-
-$logger = new Logger();
+$log_file = $config['log_file'];
+$logger = new Logger($log_file);
 
 $car = new Car('BMW', 'M5', 'white', $logger);
-$truck = new TrailerTruck('MAN', 'D26', 'black', $logger);
+$truck = new Truck('MAN', 'D26', 'black', $logger);
 $trailer_truck = new TrailerTruck('Scania', 'S730', 'grey', $logger);
 $bus = new Bus('Volvo', '9400', 'blue', $logger);
 $toll_station = TollStation::getInstance();
-$worker1 = new Worker($toll_station, 'Petar', 'Markovic');
-$worker2 = new Worker($toll_station, 'Dragan', 'Petrovic');
 
-$worker1_toll_sum = $worker1->chargeToll($car);
-$worker1_toll_sum += $worker1->chargeToll($trailer_truck);
-echo $worker1_toll_sum;
+$workers_array = [];
 
-$worker2_toll_sum = $worker2->chargeToll($truck);
-$worker2_toll_sum += $worker2->chargeToll($bus);
-echo $worker2_toll_sum;
+$worker1 = new Worker($toll_station, 'Petar', 'Markovic', $logger);
+$workers_array[] = $worker1;
+$worker2 = new Worker($toll_station, 'Dragan', 'Petrovic', $logger);
+$workers_array[] = $worker2;
+
+$worker1->chargeToll($car);
+$worker1->chargeToll($trailer_truck);
+
+$worker2->chargeToll($truck);
+$worker2->chargeToll($bus);
+
+var_dump($workers_array);exit;
+
