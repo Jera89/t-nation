@@ -39,7 +39,7 @@ class Worker {
     
     public function createChargeLogMessage($vehicle)
     {
-        return '['.date(ConfigHelper::getConfig('log_date_format', 'Y.m.d H:i')).'] Radnik: '.$this->name.' '.$this->surname.' je naplatio putarinu u iznosu od: '.$vehicle->toll_price.'RSD, za Vozilo: '.$vehicle->brand.' '.$vehicle->model.' '.$vehicle->colour;
+        return '['.date(ConfigHelper::getConfig('log_date_format', 'Y.m.d H:i')).'] Radnik: '.$this->name.' '.$this->surname.' je naplatio putarinu u iznosu od: '.$vehicle->toll_price.' RSD, za Vozilo: '.$vehicle->brand.' '.$vehicle->model.' '.$vehicle->colour;
     }
     
 }
