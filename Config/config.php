@@ -1,6 +1,10 @@
 <?php
 
+$root_directory = dirname(dirname(__FILE__));
+
 return [
-    'log_file' => dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR.'Logs'.DIRECTORY_SEPARATOR.'log.txt',
+    'root_directory' => $root_directory,
+    'log_file' => $root_directory.DIRECTORY_SEPARATOR.'Logs'.DIRECTORY_SEPARATOR.'log.txt',
+    'log_date_format' => 'Y.m.d H:i',
 ];
 

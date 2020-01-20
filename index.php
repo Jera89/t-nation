@@ -1,7 +1,7 @@
 <?php
 
-require_once 'autoload.php';
-$config = require_once 'Config'.DIRECTORY_SEPARATOR.'config.php';
+require 'autoload.php';
+//$config = require 'Config'.DIRECTORY_SEPARATOR.'config.php';
 
 use Models\Bus;
 use Models\Car;
@@ -12,9 +12,9 @@ use Models\Vehicle;
 use Models\Worker;
 use Interfaces\LoggerInterface;
 use Helpers\Logger;
+use Helpers\ConfigHelper;
 
-$log_file = $config['log_file'];
-$logger = new Logger($log_file);
+$logger = new Logger(ConfigHelper::getConfig('log_file'));
 
 $car = new Car('BMW', 'M5', 'white', $logger);
 $truck = new Truck('MAN', 'D26', 'black', $logger);
@@ -35,5 +35,12 @@ $worker1->chargeToll($trailer_truck);
 $worker2->chargeToll($truck);
 $worker2->chargeToll($bus);
 
-var_dump($workers_array);exit;
+header('HTTP/1.1 200 OK');
+header('Content-Type: text/html');
+
+foreach ($workers_array as $worker) {
+    echo 'Radnik '.$worker->name.' '.$worker->surname.' je ukupno naplatio: '.$worker->getChargedSum().'RSD. <br>';
+}
+
+echo 'Na naplatnoj stanici, ukupno je naplaceno: '.$toll_station->getChargedSum().'RSD.';
 

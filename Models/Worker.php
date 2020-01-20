@@ -2,13 +2,15 @@
 
 namespace Models;
 
+use Helpers\ConfigHelper;
+
 class Worker {
     
     public $toll_station = null;
     public $name = '';
     public $surname = '';
     public $logger = null;
-    private $charge_sum = 0;
+    private $charged_sum = 0;
     
     public function __construct($toll_station, $name, $surname, $logger) {
         $this->toll_station = $toll_station;
@@ -27,17 +29,17 @@ class Worker {
     
     public function increaseChargeSum($charge_value)
     {
-        $this->charge_sum += $charge_value;
+        $this->charged_sum += $charge_value;
     }
     
-    public function getChargeSum()
+    public function getChargedSum()
     {
-        return $this->charge_sum;
+        return $this->charged_sum;
     }
     
     public function createChargeLogMessage($vehicle)
     {
-        return '['.date('Y.m.d H:i:s').'] Radnik: '.$this->name.' '.$this->surname.' je naplatio putarinu u iznosu od: '.$vehicle->toll_price.'RSD, za Vozilo: '.$vehicle->brand.' '.$vehicle->model.' '.$vehicle->colour;
+        return '['.date(ConfigHelper::getConfig('log_date_format', 'Y.m.d H:i')).'] Radnik: '.$this->name.' '.$this->surname.' je naplatio putarinu u iznosu od: '.$vehicle->toll_price.'RSD, za Vozilo: '.$vehicle->brand.' '.$vehicle->model.' '.$vehicle->colour;
     }
     
 }

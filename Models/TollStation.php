@@ -27,7 +27,7 @@ class TollStation {
         return $this->charged_sum += $charge_value;
     }
     
-    public function getChargeSum()
+    public function getChargedSum()
     {
         return $this->charged_sum;
     }

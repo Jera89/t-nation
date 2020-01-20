@@ -1,8 +1,56 @@
-[2020.01.20 01:34:51] Kreiran Automobil.
-[2020.01.20 01:34:51] Kreiran Kamion bez prikolice.
-[2020.01.20 01:34:51] Kreiran Kamion sa prikolicom.
-[2020.01.20 01:34:51] Kreiran Autobus.
-[2020.01.20 01:34:51] Radnik: Petar Markovic je naplatio putarinu u iznosu od: 240RSD, za Vozilo: BMW M5 white
-[2020.01.20 01:34:51] Radnik: Petar Markovic je naplatio putarinu u iznosu od: 450RSD, za Vozilo: Scania S730 grey
-[2020.01.20 01:34:51] Radnik: Dragan Petrovic je naplatio putarinu u iznosu od: 350RSD, za Vozilo: MAN D26 black
-[2020.01.20 01:34:51] Radnik: Dragan Petrovic je naplatio putarinu u iznosu od: 300RSD, za Vozilo: Volvo 9400 blue
+[2020.01.20 04:01] Kreiran Automobil.
+[2020.01.20 04:01] Kreiran Kamion bez prikolice.
+[2020.01.20 04:01] Kreiran Kamion sa prikolicom.
+[2020.01.20 04:01] Kreiran Autobus.
+[2020.01.20 04:01] Radnik: Petar Markovic je naplatio putarinu u iznosu od: 240RSD, za Vozilo: BMW M5 white
+[2020.01.20 04:01] Radnik: Petar Markovic je naplatio putarinu u iznosu od: 450RSD, za Vozilo: Scania S730 grey
+[2020.01.20 04:01] Radnik: Dragan Petrovic je naplatio putarinu u iznosu od: 350RSD, za Vozilo: MAN D26 black
+[2020.01.20 04:01] Radnik: Dragan Petrovic je naplatio putarinu u iznosu od: 300RSD, za Vozilo: Volvo 9400 blue
+[2020.01.20 04:02] Kreiran Automobil.
+[2020.01.20 04:02] Kreiran Kamion bez prikolice.
+[2020.01.20 04:02] Kreiran Kamion sa prikolicom.
+[2020.01.20 04:02] Kreiran Autobus.
+[2020.01.20 04:02] Radnik: Petar Markovic je naplatio putarinu u iznosu od: 240RSD, za Vozilo: BMW M5 white
+[2020.01.20 04:02] Radnik: Petar Markovic je naplatio putarinu u iznosu od: 450RSD, za Vozilo: Scania S730 grey
+[2020.01.20 04:02] Radnik: Dragan Petrovic je naplatio putarinu u iznosu od: 350RSD, za Vozilo: MAN D26 black
+[2020.01.20 04:02] Radnik: Dragan Petrovic je naplatio putarinu u iznosu od: 300RSD, za Vozilo: Volvo 9400 blue
+[2020.01.20 04:02] Kreiran Automobil.
+[2020.01.20 04:02] Kreiran Kamion bez prikolice.
+[2020.01.20 04:02] Kreiran Kamion sa prikolicom.
+[2020.01.20 04:02] Kreiran Autobus.
+[2020.01.20 04:02] Radnik: Petar Markovic je naplatio putarinu u iznosu od: 240RSD, za Vozilo: BMW M5 white
+[2020.01.20 04:02] Radnik: Petar Markovic je naplatio putarinu u iznosu od: 450RSD, za Vozilo: Scania S730 grey
+[2020.01.20 04:02] Radnik: Dragan Petrovic je naplatio putarinu u iznosu od: 350RSD, za Vozilo: MAN D26 black
+[2020.01.20 04:02] Radnik: Dragan Petrovic je naplatio putarinu u iznosu od: 300RSD, za Vozilo: Volvo 9400 blue
+[2020.01.20 04:02] Kreiran Automobil.
+[2020.01.20 04:02] Kreiran Kamion bez prikolice.
+[2020.01.20 04:02] Kreiran Kamion sa prikolicom.
+[2020.01.20 04:02] Kreiran Autobus.
+[2020.01.20 04:02] Radnik: Petar Markovic je naplatio putarinu u iznosu od: 240RSD, za Vozilo: BMW M5 white
+[2020.01.20 04:02] Radnik: Petar Markovic je naplatio putarinu u iznosu od: 450RSD, za Vozilo: Scania S730 grey
+[2020.01.20 04:02] Radnik: Dragan Petrovic je naplatio putarinu u iznosu od: 350RSD, za Vozilo: MAN D26 black
+[2020.01.20 04:02] Radnik: Dragan Petrovic je naplatio putarinu u iznosu od: 300RSD, za Vozilo: Volvo 9400 blue
+[2020.01.20 04:02] Kreiran Automobil.
+[2020.01.20 04:02] Kreiran Kamion bez prikolice.
+[2020.01.20 04:02] Kreiran Kamion sa prikolicom.
+[2020.01.20 04:02] Kreiran Autobus.
+[2020.01.20 04:02] Radnik: Petar Markovic je naplatio putarinu u iznosu od: 240RSD, za Vozilo: BMW M5 white
+[2020.01.20 04:02] Radnik: Petar Markovic je naplatio putarinu u iznosu od: 450RSD, za Vozilo: Scania S730 grey
+[2020.01.20 04:02] Radnik: Dragan Petrovic je naplatio putarinu u iznosu od: 350RSD, za Vozilo: MAN D26 black
+[2020.01.20 04:02] Radnik: Dragan Petrovic je naplatio putarinu u iznosu od: 300RSD, za Vozilo: Volvo 9400 blue
+[2020.01.20 04:04] Kreiran Automobil.
+[2020.01.20 04:04] Kreiran Kamion bez prikolice.
+[2020.01.20 04:04] Kreiran Kamion sa prikolicom.
+[2020.01.20 04:04] Kreiran Autobus.
+[2020.01.20 04:04] Radnik: Petar Markovic je naplatio putarinu u iznosu od: 240RSD, za Vozilo: BMW M5 white
+[2020.01.20 04:04] Radnik: Petar Markovic je naplatio putarinu u iznosu od: 450RSD, za Vozilo: Scania S730 grey
+[2020.01.20 04:04] Radnik: Dragan Petrovic je naplatio putarinu u iznosu od: 350RSD, za Vozilo: MAN D26 black
+[2020.01.20 04:04] Radnik: Dragan Petrovic je naplatio putarinu u iznosu od: 300RSD, za Vozilo: Volvo 9400 blue
+[2020.01.20 04:06] Kreiran Automobil.
+[2020.01.20 04:06] Kreiran Kamion bez prikolice.
+[2020.01.20 04:06] Kreiran Kamion sa prikolicom.
+[2020.01.20 04:06] Kreiran Autobus.
+[2020.01.20 04:06] Radnik: Petar Markovic je naplatio putarinu u iznosu od: 240RSD, za Vozilo: BMW M5 white
+[2020.01.20 04:06] Radnik: Petar Markovic je naplatio putarinu u iznosu od: 450RSD, za Vozilo: Scania S730 grey
+[2020.01.20 04:06] Radnik: Dragan Petrovic je naplatio putarinu u iznosu od: 350RSD, za Vozilo: MAN D26 black
+[2020.01.20 04:06] Radnik: Dragan Petrovic je naplatio putarinu u iznosu od: 300RSD, za Vozilo: Volvo 9400 blue
